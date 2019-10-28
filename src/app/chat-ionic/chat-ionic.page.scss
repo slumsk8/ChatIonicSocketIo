@@ -1,0 +1,15 @@
+ion-row{        
+    ion-col{
+        margin: 10px 0px;                                
+        &.other{
+            background-color: rgba(255, 102, 0, 0.322);                        
+            grid-area: other;
+            border-radius: 10px;                    
+        }
+        &.logged{
+            background-color: rgba(118, 118, 235, 0.479);        
+            grid-area: logged;
+            border-radius: 10px;                    
+        }
+    }
+}
